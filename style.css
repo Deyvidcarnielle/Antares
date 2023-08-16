@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500;10..48,700&family=Caprasimo&family=Montserrat+Alternates:wght@400;700&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', 'Montserrat Alternates', sans-serif;
+}
+
+form > h1 {
+    font-family: 'Caprasimo';
+    font-size: 35px;
+    padding: 30px;
+    color: rgb(57, 57, 221);  
+}
+
+form{
+    
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    background: #f3f3f3;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px 30px rgb(245, 245, 245);
+}
+
+body{
+    background-image: url('assets/clouds.png');
+    background-repeat: space repeat;
+    background-size: 80px;
+    position: absolute;
+    overflow: auto;
+  
+}
+
+
+main{
+
+    width: 100vw;
+    height: 100vh;
+    background: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(9,9,119,0.7662037037037037) 1%, rgba(6,197,236,0.8518518518518519) 100%);
+}
+
+.textfield{
+    justify-content: center;
+    display: flex;
+    flex-direction: inline;
+    padding: 10px;
+}
+
+.textfield > input{
+    border-radius: 30px;
+    width: 100%;
+    border: outset;
+    padding: 15px;
+    background: white;
+    font-size: 12pt;
+    outline: none;
+}
+
+.textfield > i{
+   font-size: 30px;
+   padding-top: 10px;
+   padding-right: 10px; 
+   color: rgb(0, 81, 202);
+}
+
+.textfield > input::placeholder {
+    font-size: 12pt;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat Alternates';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:focus{
+    border-color: rgb(22, 109, 223);
+}
+
+.btn-login{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(9,9,119,0.7662037037037037) 1%, rgba(6,197,236,0.8518518518518519) 100%);
+    width: 60%;
+    color: white;
+    padding: 15px 0px;
+    margin: 25px;
+    border-radius: 30px;
+    outline-style: hidden;
+    font-family: 'Bricolage Grotesque';
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: rgb(0, 0, 0);
+    color: ivory;
+    letter-spacing: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0px 0px 40px 6px rgba(54, 143, 245, 0.658);
+}
