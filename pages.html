@@ -38,9 +38,9 @@
 
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">
+                    <a href="#" class="cliente">
                         <i class="bi bi-person-badge"></i>
-                        <span class="text-list">Cliente</span>
+                        <span class="text-list cliente">Cliente</span>
                         <i class="bi bi-arrow-down"></i>
                     </a>
                     <ul class="sub-menu">
@@ -56,9 +56,9 @@
 
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">
+                    <a href="#" class="estoque">
                         <i class="bi bi-bag"></i>
-                        <span class="text-list">Estoque</span>
+                        <span class="text-list estoque">Estoque</span>
                         <i class="bi bi-arrow-down"></i>
                     </a>
                     <ul class="sub-menu">
@@ -74,9 +74,9 @@
 
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">
+                    <a href="#" class="financeiro">
                         <i class="bi bi-credit-card"></i>
-                        <span class="text-list">Financeiro</span>
+                        <span class="text-list financeiro">Financeiro</span>
                         <i class="bi bi-arrow-down"></i>
                     </a>
                     <ul class="sub-menu">
@@ -96,9 +96,48 @@
 
     <div id="conteudo">
 
-        
+
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+
+    <script>
+
+        $(".home").click(function () {
+
+            $("#conteudo").load("pages/home.html")
+
+        });
+
+        $(".dashboard").click(function () {
+
+            $("#conteudo").load("pages/dashboard.html")
+
+        });
+
+        $(".cliente").click(function () {
+
+            $("#conteudo").load("pages/cliente.html")
+
+        });
+
+        $(".estoque").click(function () {
+
+            $("#conteudo").load("pages/estoque.html")
+
+        });
+
+        $(".financeiro").click(function () {
+
+            $("#conteudo").load("pages/financeiro.html")
+
+        });
+
+    </script>
+
 
 </body>
 
