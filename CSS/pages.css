@@ -113,3 +113,7 @@ li .sub-menu a:hover {
     left: 230px;
     width: calc(100% - 230px);
 }
+
+.form-floating label{
+    left: 8px;
+}
